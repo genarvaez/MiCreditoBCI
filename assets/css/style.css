@@ -43,5 +43,27 @@ span a{
 }
 a i.fa.fa{
 	color: black;
-
+}
+.home{
+	background: url('../img/home.jpg');
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: right bottom;
+	background-size: 70%;
+}
+input[type=text]:not(.browser-default){
+	border: 1px solid grey;
+	padding: 5px;
+	border-radius: 5px;
+}
+.iniciar-sesion{
+	background-color: #DBA901;
+	border-radius: 5px;
+	height: 30px;
+	width: 40%;
+	color: white;
+	border: none;
+}
+.logo-signUp{
+	margin-bottom: 30px;
 }
