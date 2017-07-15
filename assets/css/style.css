@@ -1,4 +1,45 @@
-/*Verde: #00a94a 
+/*
+Verde: #00a94a 
 Azul: #007cc6 
 Amarillo: ##ffa500 
-Rojo: #f6303e*/
+Rojo: #f6303e
+*/
+
+
+body{
+	background: url(../img/matthew-guay-148463.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	background-attachment: fixed;
+}
+
+.titulobienvenida{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 155px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logoinicio{
+	width: 70%;
+}
+
+.btn-estado{
+	background-color: #007cc6;
+	width: 300px;
+	border-radius: 5px;
+	margin-top: 70px;
+}
+
+.btn-estado:hover, .btn-simular:hover{
+	background-color: #ffa500;
+}
+
+.btn-simular{
+	background-color: #00a94a;
+	width: 300px;
+	border-radius: 5px;
+}
