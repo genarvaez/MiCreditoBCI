@@ -94,3 +94,42 @@ input[type=number]:not(.browser-default):focus:not([readonly])+label{
     color: #f6303e;
 }
 
+/*Formulario No-Cliente*/
+
+/*span:hover{
+	background-color: yellow;
+}*/
+
+.formularionocliente{
+	margin-top: 60px;
+}
+
+.dropdown-content li>span{
+	color: #007cc6;
+}
+
+.input-field label {
+    font-weight: bold;
+}
+
+input[type=text]:not(.browser-default) {
+    font-size: 17px;
+    border-color: #00a94a;
+}
+
+.select-wrapper span.caret {
+    color: #FFD700;
+}
+
+.imagenform{
+	width: 200px;
+	margin-top: 40px;
+}
+
+.btn-continuar{
+	background-color: #f6303e;
+}
+
+.btn-continuar:hover{
+	background-color: #FFD700;
+}
