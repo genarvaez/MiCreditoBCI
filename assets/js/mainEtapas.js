@@ -2,7 +2,6 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	$(".copia").hide();
 	$(".copia2").hide();
-	console.log(data)
 
 	setTimeout(function(){
 		cambio();
@@ -42,6 +41,15 @@ $(document).ready(function(){
 	}
 });
 /******************************************inicio de sesion*****************************************/
+/*$(".password").on("keydown", function(){
+	console.log($(this).val())
+	for(var i = 0; i< $(this).val(); i++){
+		
+	}
+})*/
+
+
+
 $(".iniciar-sesion").click(function(event){
 	var rut = $(".rut").val();
 	var password = $(".password").val();
@@ -66,11 +74,14 @@ $(".iniciar-sesion").click(function(event){
 	 		$(".pw").removeClass('hide');
 		}
 		else{
-			alert("correcto")
-			console.log(usuario[0].user);
+			console.log(usuario[0]);
 			$(".pw").addClass('hide');
+			if(usuario[0].cliente.status.aproved == true){
+				$(".irAEtapa").attr("href", "enviodocumentos.html");
+			}
+			else if(usuario[0].cliente.status.aproved != true){
+				$(".irAEtapa").attr("href", "etapas.html");
+			}
 		}
 	}
-
-
 })

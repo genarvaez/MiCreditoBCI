@@ -36,7 +36,7 @@ var data = [{
 	user: {
 		nombre: "María",
 		apellido: "Pérez", 
-		rut: "20234567-3",
+		rut: "20123456-7",
 		fechaNacimiento: "19/10/1970",
 		id: 123456789,
 		renta: "1730000",
