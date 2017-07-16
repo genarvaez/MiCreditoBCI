@@ -123,7 +123,7 @@ input[type=text]:not(.browser-default) {
 
 .imagenform{
 	width: 200px;
-	margin-top: 40px;
+	margin-top: 65px;
 }
 
 .btn-continuar{
@@ -132,4 +132,64 @@ input[type=text]:not(.browser-default) {
 
 .btn-continuar:hover{
 	background-color: #FFD700;
+}
+
+/*Datos vivienda*/
+
+.depto{
+	font-weight: bold;
+}
+
+.modify{
+	color: #f6303e;
+}
+
+.modify:hover{
+	color: #FFD700;
+}
+
+/*Modal footer*/
+
+.modal.modal-fixed-footer .modal-footer {
+    height: 150px;
+}
+
+.btn-flat{
+	background-color: #007cc6;
+	color: white;
+	font-size: 12px;
+}
+
+.btn-volver{
+	margin-right: 62px;
+}
+
+.switch label .lever:after{
+	background-color: #00a94a;
+}
+
+.switch label input[type=checkbox]:checked+.lever{
+	background-color: #9E9E9E;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after{
+	background-color: #FFD700;
+}
+
+input[type=range]+.thumb{
+	background-color: #f6303e;
+}
+
+.btn-calculate{
+	background-color: #f6303e;
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.btn-calculate:hover{
+	background-color: #007cc6;
+}
+
+.btn-enviar{
+	height: 70px;
 }
