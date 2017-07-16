@@ -1,0 +1,219 @@
+/*
+Verde: #00a94a 
+Azul: #007cc6 
+Amarillo: #FFD700 
+Rojo: #f6303e
+*/
+
+*{
+	font-family: "Open Sans", sans-serif;
+}
+.logoEtapa{
+	width: 30%;
+}
+.tasacion, .estudio, .posteos{
+	padding: 10px;
+}
+
+nav{
+	background-color: transparent;
+}
+nav .material-icons{
+	color: black;
+}
+
+.bienvenida{
+	background: url(../img/matthew-guay-148463.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	background-attachment: fixed;
+}
+
+.titulobienvenida{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 155px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logoinicio{
+	width: 70%;
+}
+
+.btn-estado{
+	background-color: #007cc6;
+	width: 300px;
+	border-radius: 5px;
+	margin-top: 70px;
+}
+
+.btn-estado:hover, .btn-simular:hover{
+	background-color: #ffa500;
+}
+
+.btn-simular{
+	background-color: #00a94a;
+	width: 300px;
+	border-radius: 5px;
+}
+
+/*Sign Up NO USUARIO*/
+
+.home{
+	/*background-image: url(../img/gilles-lambert-8649.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	background-attachment: fixed;
+	padding: 50px;
+}
+
+.input-signup{
+	margin: 10px;
+}
+
+.input-field label{
+	color: black;
+}
+
+input[type=text]:not(.browser-default){
+    font-size: 20px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid  #00a94a;
+    box-shadow: 0 1px 0 0  #00a94a;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+    color: #00a94a;
+}
+
+input[type=number]:not(.browser-default){
+    font-size: 20px;
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid  #f6303e;
+    box-shadow: 0 1px 0 0  #f6303e;
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly])+label{
+    color: #f6303e;
+}
+
+/*Formulario No-Cliente*/
+
+/*span:hover{
+	background-color: yellow;
+}*/
+
+.formularionocliente{
+	margin-top: 60px;
+}
+
+.dropdown-content li>span{
+	color: #007cc6;
+}
+
+.input-field label {
+    font-weight: bold;
+}
+
+input[type=text]:not(.browser-default) {
+    font-size: 17px;
+    border-color: #00a94a;
+}
+
+.select-wrapper span.caret {
+    color: #FFD700;
+}
+
+.imagenform{
+	width: 200px;
+	margin-top: 65px;
+}
+
+.btn-continuar{
+	background-color: #f6303e;
+}
+
+.btn-continuar:hover{
+	background-color: #FFD700;
+}
+
+/*Datos vivienda*/
+
+.depto{
+	font-weight: bold;
+}
+
+.modify{
+	color: #f6303e;
+}
+
+.modify:hover{
+	color: #FFD700;
+}
+
+/*Modal footer*/
+
+.modal.modal-fixed-footer .modal-footer {
+    height: 150px;
+}
+
+.btn-flat{
+	background-color: #007cc6;
+	color: white;
+	font-size: 12px;
+}
+
+.btn-volver{
+	margin-right: 62px;
+}
+
+.switch label .lever:after{
+	background-color: #00a94a;
+}
+
+.switch label input[type=checkbox]:checked+.lever{
+	background-color: #9E9E9E;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after{
+	background-color: #FFD700;
+}
+
+input[type=range]+.thumb{
+	background-color: #f6303e;
+}
+
+.btn-calculate{
+	background-color: #f6303e;
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.btn-calculate:hover{
+	background-color: #007cc6;
+}
+
+.btn-enviar{
+	height: 70px;
+}
+
+.btn-solicitar{
+	background-color: #007cc6;
+	width: 300px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.btn-solicitar:hover{
+	background-color: #ffa500;
+}

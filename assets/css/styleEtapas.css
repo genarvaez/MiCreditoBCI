@@ -15,7 +15,10 @@ Rojo: #f6303e*/
 }
 
 nav{
-	background-color: #DBA901;
+	background-color: transparent;
+}
+nav .material-icons{
+	color: black;
 }
 .progress-bar{
 	display: flex
