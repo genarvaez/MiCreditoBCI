@@ -1,0 +1,47 @@
+body{
+
+}
+.estado{
+	
+	margin-right: 10px;
+	background-color: #ffd700;
+	color: white;
+}
+span.badge{
+	color: white;
+	border-radius: 4px;
+}
+.collapsible-header i{
+	width: .8rem;
+	font-size: 1.3rem;
+}
+textarea:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #3678CE ;
+    box-shadow: 0 1px 0 0 #3678CE ;
+}
+textarea:not(.browser-default):focus:not([readonly])+label{
+    color: #3678CE ;
+}
+.btn, .btn-large{
+	background-color:  #3678CE;
+	width: 50%;
+	margin: 0 auto;
+	
+	font-size: 20px;
+}
+.opinion{
+	text-align: center;
+}
+.btn:focus, .btn-large:focus{
+	background-color:  #3678CE;
+}
+
+.btn:hover, .btn-large:hover{
+	background-color:  #3678CE;
+}
+.btn:visited, .btn-large:visited{
+	background-color: #3678CE;
+}
+a.btn:visited{
+	background-color: #3678CE;
+}
