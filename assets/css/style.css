@@ -14,7 +14,6 @@ Rojo: #f6303e
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
 	width: 100vw;
 	background-attachment: fixed;
 }
@@ -192,4 +191,16 @@ input[type=range]+.thumb{
 
 .btn-enviar{
 	height: 70px;
+}
+
+.btn-solicitar{
+	background-color: #007cc6;
+	width: 300px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.btn-solicitar:hover{
+	background-color: #ffa500;
 }
