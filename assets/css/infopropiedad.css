@@ -118,3 +118,31 @@ nav a {
 a i.fa.fa {
     color: #f6303e;
 }
+p.porcentaje {
+    font-size: 25px;
+   	color: #3678CE;
+   	text-align: center;
+}
+.imgmapa{
+	width: 90%;
+	margin-left: 12px;
+}
+p.textporcent{
+	text-align: center;
+	font-size: 20px;
+}
+p.textservicios {
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+img.imgcasa{
+	width: 215px;
+	text-align: center;
+	margin-left: 50px;
+}
+h5.titulosinfo{
+	margin-left: 30px;
+}
