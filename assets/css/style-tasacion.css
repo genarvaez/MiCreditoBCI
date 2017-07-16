@@ -1,0 +1,138 @@
+/*Verde: #00a94a 
+Azul: #007cc6 
+Amarillo: ##ffa500 
+Rojo: #f6303e*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logoEtapa{
+	width: 30%;
+}
+.tasacion, .estudio{
+	padding: 10px;
+}
+nav{
+	background-color: white;
+}
+nav .material-icons{
+	color: black;
+}
+section{
+	display: flex
+}
+.steps, .step-one{
+	margin-top: 20px;
+	background-color: #00a94a;
+	border-radius: 110%;
+	font-size: 1.3em;
+	padding: 0.4em 0.8em;
+	position: relative;
+	top: 30px;
+}
+.steps{
+	background-color: grey
+}
+span a{
+	color: whitesmoke;
+}
+.line{
+	background-color: gray;
+	height: 5px;
+	width: 121px;
+	margin: 42px -10px;
+}
+.line-green{
+	background-color: #00a94a;
+}
+.progress-bar{
+	padding: 20px;
+}
+a i.fa.fa{
+	color: black;
+}
+.home{
+	background: url('../img/home.jpg');
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: right bottom;
+	background-size: 70%;
+}
+input[type=text]:not(.browser-default){
+	border: 1px solid grey;
+	padding: 5px;
+	border-radius: 5px;
+}
+.iniciar-sesion{
+	background-color: #DBA901;
+	border-radius: 5px;
+	height: 30px;
+	width: 40%;
+	color: white;
+	border: none;
+}
+.logo-signUp{
+	margin-bottom: 30px;
+}
+.estado{
+	
+	margin-right: 10px;
+	background-color: #ffd700;
+	color: white;
+}
+span.badge{
+	color: white;
+	border-radius: 4px;
+}
+.collapsible-header i{
+	width: .8rem;
+	font-size: 1.3rem;
+}
+textarea:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #3678CE ;
+    box-shadow: 0 1px 0 0 #3678CE ;
+}
+textarea:not(.browser-default):focus:not([readonly])+label{
+    color: #3678CE ;
+}
+.btn, .btn-large{
+	background-color:  #3678CE;
+	width: 50%;
+	margin: 0 auto;
+	
+	font-size: 20px;
+}
+.opinion{
+	text-align: center;
+}
+.btn:focus, .btn-large:focus{
+	background-color:  #3678CE;
+}
+
+.btn:hover, .btn-large:hover{
+	background-color:  #3678CE;
+}
+.btn:visited, .btn-large:visited{
+	background-color: #3678CE;
+}
+a.btn:visited{
+	background-color: #3678CE;
+}
+
+form .btn, .btn-large{
+	width: 12%;
+}
+form .file-field .btn, form .file-field .btn-large{
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 12px;
+}
+form .btn, form .btn-large, form .btn-flat{
+	padding: 0;
+}
+input[type=text]:not(.browser-default){
+	height: 2rem;
+	width: 60%;
+	padding: 0;
+}

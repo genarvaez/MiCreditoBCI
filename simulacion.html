@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crédito Hipotecario - Banco Bci</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="assets/img/bcilogo.png">
+    <link rel="stylesheet" href="assets/css/stylecamisaez.css">
+    <link rel="shortcut icon" type="image/png" href="docs/imagen.png">
+</head>
+<body>
+    <nav class="container-fluid">
+        <div class="nav-wrapper center">
+          <a href="index.html" class="brand-logo"><img class="logoEtapa" src="assets/img/bcilogo2.png" alt=""></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="miperfil.html">MI PERFIL</a></li>
+              <li><a href="micredito.html">MI CRÉDITO</a></li>
+              <li><a href="infopropiedad.html">INFORMACIÓN PROPIEDAD</a></li>
+              <li><a href="simulador">SIMULADOR</a></li>
+              <li><a href="contacto.html">CONTÁCTANOS</a></li>
+              <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+            </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="signUpUsuario.html"><i class="fa fa-user" aria-hidden="true"></i>MI CRÉDITO</a></li>
+                <li><a href="contacto.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTÁCTANOS</a></li>
+                <li><img src="assets/img/corporate-451b410b22d666495bb126b110ba6d91.png" class="responsive-img" alt=""></li>
+            </ul>
+
+          </div>
+        </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <p>Simula las condiciones que deseas para comprar tu (propiedad) <a class= 'modify' href="formularionocliente.html">Modificar</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <form action="#">
+                    <h6>¿Qué tipo de tasa quieres?</h6>
+                    <div class="divider"></div>
+                    <div class="col s6">
+                        <p>
+                            <input type="checkbox" id="test1" />
+                            <label for="test1">Tasa fija (UF)</label>
+                        </p>
+                    </div>
+                    <div class="col s6">
+                        <p>
+                            <input type="checkbox" id="test2" />
+                            <label for="test2">Tasa fija + variable (UF)</label>
+                        </p>
+                    </div>
+                    <h6>¿Cuál es el valor de la propiedad?</h6>
+                    <div class="divider"></div>
+                    <div class="switch">
+                        <label>
+                        UF
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        CLP ($)
+                        </label>
+                    </div>
+                    <p class="range-field">
+                        <input type="range" id="test5" min="1000" max="10000" />
+                    </p>
+                    <h6>¿Cuál es el monto del pie que entregarás?</h6>
+                    <div class="divider"></div>
+                    <div class="switch">
+                        <label>
+                        UF
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        CLP ($)
+                        </label>
+                    </div>
+                    <p class="range-field">
+                        <input type="range" id="test5" min="0" max="10000" />
+                    </p>
+                    <h6>¿Cuál es el monto del crédito que deseas solicitar?</h6>
+                    <div class="divider"></div>
+                    <div class="switch">
+                        <label>
+                        UF
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        CLP ($)
+                        </label>
+                    </div>
+                    <p class="range-field">
+                        <input type="range" id="test5" min="0" max="10000" />
+                    </p>
+                    <h6>¿En cuántos años deseas pagar el crédito?</h6>
+                    <div class="divider"></div>
+                    <p class="range-field">
+                        <input type="range" id="test5" min="5" max="30" />
+                    </p>
+                </form>
+                <a class="waves-effect waves-light btn btn-calculate" href="#modal1">Calcular</a>
+                <a class="waves-effect waves-light btn btn-solicitar">SOLICITAR CRÉDITO</a>
+                <div id="modal1" class="modal modal-fixed-footer">
+                    <div class="modal-content center-align">
+                        <h4>Tu dividendo mensual será</h4>
+                        <div class="col s6">
+                            <ul>
+                                <li>Tasa anual en UF</li>
+                                <li>CAE</li>
+                                <li>Plazo</li>
+                                <li>Dividendo sin seguros</li>
+                                <li>Seguro desgravamen</li>
+                                <li>Costo total del crédito</li>
+                            </ul>
+                        </div>
+                        <div class="col s6 center-align">
+                            <ul>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                                <li>-----</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col s12">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn-volver" style='margin-right: 55px'>Volver a simular</a>
+                        </div>
+                        <div class="col s12">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn-enviar center">¿Quieres conservar o enviar por email a alguien tu simulación?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src='assets/js/maincamisaez.js'></script>
+</body>
+</html>
