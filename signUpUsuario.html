@@ -12,10 +12,12 @@
 <body>
 	<section class="container home">
 		<div class="row center">
-			<div class="col s12">
+			<div class="col s12 signIn" >
 				<img src="assets/img/bcilogo2.png" class="responsive-img logo-signUp" alt="">
-				<input type="text" placeholder="RUT">
-				<input type="text" placeholder="CONTRASEÑA">
+				<p class="hide rt">Número de RUT no está registrado</p>
+				<input type="text" placeholder="RUT" class="rut">
+				<p class="hide pw">La contraseña no es válida para el RUT ingresado</p>
+				<input type="text" placeholder="CONTRASEÑA" class="password">				
 				<button class="iniciar-sesion"><a href="#"></a>INICIAR SESIÓN</button>
 			</div>
 		</div>
@@ -25,5 +27,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/data/data.js"></script>
 </body>
 </html>
