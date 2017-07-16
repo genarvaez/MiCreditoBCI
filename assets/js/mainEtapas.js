@@ -72,6 +72,7 @@ $(".iniciar-sesion").click(function(event){
 		if(usuario[0].user.password != password){
 	 		event.preventDefault();
 	 		$(".pw").removeClass('hide');
+	 		console.log("error")
 		}
 		else{
 			console.log(usuario[0]);

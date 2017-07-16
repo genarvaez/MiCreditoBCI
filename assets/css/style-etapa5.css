@@ -13,7 +13,9 @@ Rojo: #f6303e*/
 .tasacion{
 	padding: 10px;
 }
-
+.nombre{
+	margin-top: 60px;
+}
 nav{
 	background-color: white;
 }

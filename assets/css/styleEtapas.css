@@ -23,6 +23,10 @@ nav .material-icons{
 .progress-bar{
 	display: flex
 }
+.pirmero{
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
+}
 .steps, .step-one{
 	margin-top: 20px;
 	background-color: green;
@@ -57,11 +61,7 @@ a i.fa.fa{
 	background-position: right bottom;
 	background-size: 70%;
 }
-input[type=text]:not(.browser-default){
-	border: 1px solid grey;
-	padding: 5px;
-	border-radius: 5px;
-}
+
 .iniciar-sesion{
 	background-color: #DBA901;
 	border-radius: 5px;
