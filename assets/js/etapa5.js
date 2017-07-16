@@ -5,9 +5,7 @@ $(document).ready(function(){
 
 	//setTimeout(function(){cambio();}, 3000);
 
-	$(".validate").on("change", function(e){
-		cambio();
-	});
+	setTimeout(function(){cambio();}, 3000);
 
 	function cambio(){
 		$("#tasa1").empty();
