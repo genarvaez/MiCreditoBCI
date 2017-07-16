@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.col.s12 {
+  margin-top: 126px;
+}
+/*INDEX 1*/
+nav .material-icons{
+  color: black;
+}
+
+.search {
+  position: absolute;
+  margin-left:4%;
+}
+.search input {  
+  margin-left:-25px;
+  visibility:hidden;
+  background-color:#3AA935;
+  color:#fff;
+  height:30px;
+  top:75px;
+  -webkit-transition: all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+  -moz-transition: all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.9);
+  -o-transition: all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+  transition: all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+  border-radius: 0; 
+  border-width:0;
+  z-index:-10;
+}
+.search:hover input , .search input:focus {     
+  width:280px;
+  visibility:visible;
+  top:55px;
+  background-color:#3AA935;
+  height:65px;
+  color:#fff;
+  outline:0px dashed #fff;
+  padding-left:23px;
+  font-size:18px;
+}
+
+input#SearchForm {
+  margin: 0px;
+  width: 99%;
+  height: 28px;
+}
+
+div.collapsible-header{
+  padding: 2px 5rem;
+}
+
+.search input:focus {     
+  color:#ffa500;
+  outline:1px dashed #ffa500;
+}
+.srchbtn {
+  cursor:pointer;
+  border: 2px solid #fff;
+  width: 65px;
+  height: 67px;
+  background-image:url('http://i60.tinypic.com/34hcc3r.png');
+  border-radius:100%;  
+  right:0;
+  top:50px;
+  z-index:200;
+  background-color:#3AA935;
+  margin: 8px;
+}
+.search:hover .srchbtn,
+.srchbtn.hover {
+  background-image:url('http://i60.tinypic.com/30ll5s4.png');
+  border-radius:100%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition:all 0.6s cubic-bezier(-0.10, 0.54, 0.10, 1.5);
+  -moz-transition:all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+  -o-transition:all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+  transition:all 0.6s cubic-bezier(0.10, 0.54, 0.10, 1.5);
+}
+.srchbtn:active {
+  border:1px solid #007cc6 ;
+  background-color:#007cc6 ;
+  transition:all 0s linear;
+}
+.question {
+  padding-top:20px;
+  font-size:20px;
+  font-family:verdana, arial;
+  color:black;
+  width:200px;
+  margin-left:-100px;
+}
+/*INDEX MENU*/
+
+/*INDEX */
+
+.wellcome{
+  background-color: #2E2E2E;
+  height: 100vh;
+}
+.logo{
+  width: 50%;
+  margin-top: 100px;
+}
+.inicio h3{
+  color: #f6a800;
+  font-weight: bolder;
+}
+.form button{
+  background-color: #f6a800;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+.pass p{
+  text-align: left;
+}
+button a{
+  color: white;
+}
+p{
+  color: white;
+}
+.register span{
+  color: #f6a800;
+  margin: 10px;
+}
+/*INDEX MENU*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logoEtapa{
+  width: 30%;
+}
+
+nav{
+  background-color: transparent;
+}
+section{
+  display: flex
+}
+.steps, .step-one{
+  margin-top: 20px;
+  background-color: green;
+  border-radius: 110%;
+  font-size: 1.3em;
+  padding: 0.4em 0.8em;
+  position: relative;
+  top: 30px;
+}
+.steps{
+  background-color: grey
+}
+span a{
+  color: whitesmoke;
+}
+.line{
+  background-color: gray;
+  height: 5px;
+  width: 121px;
+  margin: 42px -10px;
+}
+.progress-bar{
+  padding: 20px;
+}
+a i.fa.fa{
+  color: black;
+}
+.home{
+  background: url('../img/home.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: right bottom;
+  background-size: 70%;
+}
+input[type=text]:not(.browser-default){
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+.iniciar-sesion{
+  background-color: #DBA901;
+  border-radius: 5px;
+  height: 30px;
+  width: 40%;
+  color: white;
+  border: none;
+}
+.logo-signUp{
+  margin-bottom: 30px;
+}
